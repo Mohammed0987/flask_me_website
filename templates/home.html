@@ -1,74 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-	<style>
-		body{
-			overflow:hidden;
-		}
-		img {
-			width:700px;
-			margin-top:15%;
-		}
-		.center {
-  			display: block;
-  			margin-left: auto;
-  			margin-right: auto;
-  			width: 60%;
-  		}
-
-		.searchbar{
-    	margin-bottom: auto;
-    	margin-top: 5%;
-    	margin-left: auto;
-    	margin-right: auto;
-    	width:900px;
-    	background-color: black;
-    	border-radius: 30px;
-    	padding: 10px;
-    }
-
-    .search_input{
-    color: white;
-    border: 0;a
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:white;
-    line-height: 40px;
-    }
-
-    .searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 450px;
-    caret-color:red;
-    transition: width 0.4s linear;
-    }
-
-    .searchbar:hover > .search_icon{
-    background: white;
-    color: #e74c3c;
-    }
-
-    .search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:white;
-    }
-	</style>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href = "static/style.css" type = "text/css">
 </head>
+
 <body background={{url_for('static', filename = 'league_background.png')}}>
 	<img src = {{url_for('static', filename = 'lol_rank_logo2.png')}} class = "center">
-
-	<div class="container h-100">
+    <div class="container h-100">
       <div class="d-flex justify-content-center h-100">
         <div class="searchbar">
           <input class="search_input" type="text" name="" placeholder="Search...">
@@ -76,6 +19,6 @@
         </div>
       </div>
     </div>
-</div>
+
 </body>
 </html>

@@ -1,3 +1,54 @@
-body {
-	overflow: hidden;
+
+body{
+	overflow:hidden;
+}
+img {
+	width:700px;
+	margin-top:15%;
+}
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+.searchbar{
+margin-bottom: auto;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+width:900px;
+background-color: black;
+border-radius: 30px;
+padding: 10px;
+}
+
+.search_input{
+color: white;
+border: 0;a
+outline: 0;
+background: none;
+width: 0;
+caret-color:white;
+line-height: 40px;
+}
+
+.search_input{
+padding: 0 10px;
+width: auto;
+caret-color:none;
+transition: width 0.4s linear;
+color: none;
+}
+
+.search_icon{
+height: 40px;
+width: 40px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color:white;
 }
